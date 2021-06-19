@@ -941,7 +941,7 @@
   */
  .skill-bars {
 	 list-style: none;
-	 margin: 6rem 0 3rem;
+	 margin: 6rem 2rem 3rem;
  }
  .skill-bars li {
 	 height: .6rem;
@@ -1095,7 +1095,7 @@
  }
  header .top-bar {
 	 display: block;
-	 background: #000000;
+	 /*background: #000000;*/
 	 min-width: 220px;
 	 min-height: 66px;
 	 position: absolute;

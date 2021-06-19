@@ -59,6 +59,7 @@
   display: flex;
   position: relative;
   transform: translateY(-80px);
+  order: 5;
 }
 .timeline-item:before {
   content: attr(data-text);
@@ -74,6 +75,7 @@
   padding-left: 15px;
   opacity: 0;
   right: calc(-100% - 56px );
+  order: 5;
 }
 .timeline-item:nth-child(even) {
   align-self: flex-end;
@@ -122,6 +124,11 @@
   max-width: 100%;
   box-shadow: 0 10px 15px rgba(0, 0, 0, 0.4);
 }
+.timeline__bgimg {
+  max-width: 100%;
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.4);
+  display: none;
+}
 .timeline-container {
   width: 100%;
   position: relative;
@@ -169,3 +176,78 @@
   display: inline-block;
   font-family: Cardo;
 }
+
+
+
+
+
+.tlcontainer .tlrow {
+  display: flex;
+}
+
+.tlcontainer .tlrow .skills {
+  width: 10em;
+  height: 2em;
+  margin: 0.05em;
+  /*background-color: #555;*/
+  color: white;
+  text-align: left;
+  user-select: none;
+  position: relative;
+  order: 1;
+  right: 0%;
+}
+
+.tlcontainer .tlrow .date {
+  width: 15em;
+  height: 5em;
+  margin: 0.05em;
+  /*background-color: #555;*/
+  color: white;
+  text-align: center;
+  user-select: none;
+  position: relative;
+  order: 2;
+  right: 22%;
+}
+
+.tlcontainer .tlrow .image {
+  width: 10em;
+  height: 5em;
+  margin: 0.05em;
+  /*background-color: #555;*/
+  color: white;
+  text-align: center;
+  user-select: none;
+  position: relative;
+  order: 3;
+  right: 20%;
+}
+
+.tlcontainer .tlrow .title {
+  width: 10em;
+  height: 5em;
+  margin: 0.05em;
+  /*background-color: #555;*/
+  color: rgb(3, 3, 3);
+  text-align: left;
+  user-select: none;
+  position: relative;
+  order: 4;
+  right: 15%;
+}
+
+.tlcontainer .tlrow .desc {
+  width: 2em;
+  height: 5em;
+  margin: 0.05em;
+  /*background-color: #555;*/
+  color: white;
+  text-align: left;
+  user-select: none;
+  position: relative;
+  order: 5;
+  right: 35%;
+}
+
+

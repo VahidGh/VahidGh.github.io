@@ -4,7 +4,7 @@
       id: $(this),
       item: $(this).find(".timeline-item"),
       activeClass: "timeline-item--active",
-      img: ".timeline__img"
+      img: ".timeline__bgimg"
     };
     selectors.item.eq(0).addClass(selectors.activeClass);
     selectors.id.css("background-image", "url(" + selectors.item.first().find(selectors.img).attr("src") + ")");
