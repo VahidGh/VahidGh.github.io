@@ -1,0 +1,45 @@
+{
+    "2":{
+        "type":"research",
+        "date":["2021-02",""],
+        "location":"Chopen-OpenWorm",
+        "logo":"chopen.png",
+        "bg":"openwormtransparent.png",
+        "title":"Independent Researcher",
+        "short_description":"Studying and researching multidisciplinary areas from Computer, Mechanical, and Electrical Engineering to BioMedical sciences.",
+        "full_description":"Ongoing Studies:\\n-Drug design for Ion channel related diseases: This is an extension to the model I talked about which makes it possible to study mutants and designing mathematical models for potential drugs.\\n-Initial research for improving the capabilities and model applications in Pacemakers. I also set up a start-up team for more research.\\n-WormMathBook: Based on some previous experiences on solving engineering math problems using Python, which you can find a sample solution manual book I've written over here: https://gitlab.com/vahidgh/engineering-math/-/tree/master. I decided to start working on a similar book for educational purposes for the OpenWorm project as well. This project has a great potential to summarize the essence of what we are doing and going to do at the OpenWorm and be a good platform for some teamwork on this regard: https://github.com/openworm/worm-math-book.\\n-PyANNOW: a Python-based project for simulating some Artificial Neural Networks with a simplified point of view (the way the worm looks into it).\\n-Projects: Chopen, ChModeler, PredyChannel:\\nThe aim of these projects are to collect a dataset of ion channel information, investigate modeling approaches and predict ion channel kinetics.\\n-Invented a new super model for ion channels that solves the problem with different equations and parameter sets we usually deal with when trying to use or fit to HH-style or Markov models.\\n-Developed a fitter in Python that fits data to this model with the least number of parameters (only 10 parameters for almost all ion channel types) within seconds with a really efficient resource-consuming approach.\\n-Developed a predictor which can predict ion channel kinetics from their amino acid sequences which can help the prediction of Channelopathies, reengineering APs, etc..\\n-Collected a dataset of ~200 ion channels expressed in Xenopus Oocytes, related amino acid sequences, digitized their patch-clamp data to fit models and applied to a Machine Learning algorithm for predicting ion channel kinetics.\\n-You can find some part of these works over here: https://github.com/VahidGh/chModeler, https://github.com/VahidGh/chopen and some temporary web-based implementations over here: https://chopen.herokuapp.com.",
+        "skills":{
+            "Drug Design":50,
+            "Mutation Analysis":70,
+            "English Writing":80,
+            "CFD":60,
+            "Energy Metabolism":60,
+            "Robots and Control":60
+        }
+    },
+    "1":{
+        "type":"education",
+        "date":["2019-09","2021-02"],
+        "location":"Sharif University of Technology - International Campus",
+        "logo":"sharif-logo.jpeg",
+        "bg":"sharif.jpg",
+        "title":"Master’s in Mechatronics",
+        "short_description":"Took more than 10 courses in Mechatronics including fundamental under-graduate courses in Mechanical and Electrical engineering.",
+        "full_description":"-Main courses taken: Advanced Mathematical Engineering, Statics, Dynamics, Electrical Engineering, Signals and Systems, Artificial Neural Networks and applications, Advanced Automatic Control.\n-Also audited some other courses like Thermodynamics, Statistical Thermodynamics, Fluid mechanics, Vibrations, etc.",
+        "skills":{
+            "Engineering Math":90,
+            "Neural Networks":90,
+            "Electrical Circuits":70,
+            "Automatic Control":80,
+            "Fluid Mechanics":60,
+            "Thermodynamics":60,
+            "Statics, Dynamics, Vibrations":70,
+            "Microprocessors":70,
+            "Signals and Systems":70
+        }
+
+    }
+}
+
+
+
