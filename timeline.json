@@ -25,7 +25,7 @@
         "bg":"sharif.jpg",
         "title":"Master’s in Mechatronics",
         "short_description":"Took more than 10 courses in Mechatronics including fundamental under-graduate courses in Mechanical and Electrical engineering.",
-        "full_description":"-Main courses taken: Advanced Mathematical Engineering, Statics, Dynamics, Electrical Engineering, Signals and Systems, Artificial Neural Networks and applications, Advanced Automatic Control.\n-Also audited some other courses like Thermodynamics, Statistical Thermodynamics, Fluid mechanics, Vibrations, etc.",
+        "full_description":"-Main courses taken: Advanced Mathematical Engineering, Statics, Dynamics, Electrical Engineering, Signals and Systems, Artificial Neural Networks and applications, Advanced Automatic Control.\n-Also audited some other courses like Thermodynamics, Statistical Thermodynamics, Fluid mechanics, Microprocessors, Vibrations, etc.",
         "skills":{
             "Engineering Math":90,
             "Neural Networks":90,
