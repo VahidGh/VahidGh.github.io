@@ -1,44 +1,327 @@
 {
-    "2":{
-        "type":"research",
-        "date":["2021-02",""],
-        "location":"Chopen-OpenWorm",
-        "logo":"chopen.png",
-        "bg":"openwormtransparent.png",
-        "title":"Independent Researcher",
-        "short_description":"Studying and researching multidisciplinary areas from Computer, Mechanical, and Electrical Engineering to BioMedical sciences.",
-        "full_description":"Ongoing Studies:\\n-Drug design for Ion channel related diseases: This is an extension to the model I talked about which makes it possible to study mutants and designing mathematical models for potential drugs.\\n-Initial research for improving the capabilities and model applications in Pacemakers. I also set up a start-up team for more research.\\n-WormMathBook: Based on some previous experiences on solving engineering math problems using Python, which you can find a sample solution manual book I've written over here: https://gitlab.com/vahidgh/engineering-math/-/tree/master. I decided to start working on a similar book for educational purposes for the OpenWorm project as well. This project has a great potential to summarize the essence of what we are doing and going to do at the OpenWorm and be a good platform for some teamwork on this regard: https://github.com/openworm/worm-math-book.\\n-PyANNOW: a Python-based project for simulating some Artificial Neural Networks with a simplified point of view (the way the worm looks into it).\\n-Projects: Chopen, ChModeler, PredyChannel:\\nThe aim of these projects are to collect a dataset of ion channel information, investigate modeling approaches and predict ion channel kinetics.\\n-Invented a new super model for ion channels that solves the problem with different equations and parameter sets we usually deal with when trying to use or fit to HH-style or Markov models.\\n-Developed a fitter in Python that fits data to this model with the least number of parameters (only 10 parameters for almost all ion channel types) within seconds with a really efficient resource-consuming approach.\\n-Developed a predictor which can predict ion channel kinetics from their amino acid sequences which can help the prediction of Channelopathies, reengineering APs, etc..\\n-Collected a dataset of ~200 ion channels expressed in Xenopus Oocytes, related amino acid sequences, digitized their patch-clamp data to fit models and applied to a Machine Learning algorithm for predicting ion channel kinetics.\\n-You can find some part of these works over here: https://github.com/VahidGh/chModeler, https://github.com/VahidGh/chopen and some temporary web-based implementations over here: https://chopen.herokuapp.com.",
-        "skills":{
-            "Drug Design":50,
-            "Mutation Analysis":70,
-            "English Writing":80,
-            "CFD":60,
-            "Energy Metabolism":60,
-            "Robots and Control":60
+    "cards": [
+        {
+            "id":15,
+            "type":"research",
+            "date":["2021-02",""],
+            "location":"-",
+            "logo":"profile-pic.jpg",
+            "bg":"openwormtransparent.png",
+            "title":"Independent Researcher",
+            "short_description":"Studying and researching multidisciplinary areas from Computer, Mechanical, and Electrical Engineering to BioMedical sciences.",
+            "full_description":"Ongoing Studies:\n* Drug design for Ion channel related diseases: This is an extension to the model I talked about which makes it possible to study mutants and designing mathematical models for potential drugs.\n* Initial research for improving the capabilities and model applications in Pacemakers. I also set up a start-up team for more research.\n* WormMathBook: Based on some previous experiences on solving engineering math problems using Python, which you can find a sample solution manual book I've written over here: [Engineering Math Solutions via Python](https://gitlab.com/vahidgh/engineering-math/-/tree/master). I decided to start working on a similar book for educational purposes for the OpenWorm project as well. This project has a great potential to summarize the essence of what we are doing and going to do at the OpenWorm and be a good platform for some teamwork on this regard: [worm-math-book](https://github.com/openworm/worm-math-book).\n* PyANNOW: a Python-based project for simulating some Artificial Neural Networks with a simplified point of view (the way the worm looks into it).\n* Projects: Chopen, ChModeler, PredyChannel:\nThe aim of these projects are to collect a dataset of ion channel information, investigate modeling approaches and predict ion channel kinetics.\n* Invented a new super model for ion channels that solves the problem with different equations and parameter sets we usually deal with when trying to use or fit to HH-style or Markov models.\n* Developed a fitter in Python that fits data to this model with the least number of parameters (only 10 parameters for almost all ion channel types) within seconds with a really efficient resource-consuming approach.\n* Developed a predictor which can predict ion channel kinetics from their amino acid sequences which can help the prediction of Channelopathies, reengineering APs, etc..\n* Collected a dataset of ~200 ion channels expressed in Xenopus Oocytes, related amino acid sequences, digitized their patch-clamp data to fit models and applied to a Machine Learning algorithm for predicting ion channel kinetics.\n* You can find some part of these works over here: [chModeler](https://github.com/VahidGh/chModeler), [Chopen](https://github.com/VahidGh/chopen) and some temporary web-based implementations over here: [Chopen App](https://chopen.herokuapp.com).",
+            "skills":{
+                "Drug Design":50,
+                "Mutation Analysis":70,
+                "English Writing":80,
+                "CFD":60,
+                "Energy Metabolism":60,
+                "Robots and Control":60
+            }
+        },
+        {
+            "id":14,
+            "type":"education",
+            "date":["2019-09","2021-02"],
+            "location":"Sharif University of Technology - International Campus",
+            "logo":"sharif-logo.jpeg",
+            "bg":"sharif.jpg",
+            "title":"Master’s in Mechatronics",
+            "short_description":"Took more than 10 courses in Mechatronics including fundamental under-graduate courses in Mechanical and Electrical engineering.",
+            "full_description":"* Main courses taken: Advanced Mathematical Engineering, Statics, Dynamics, Electrical Engineering, Signals and Systems, Artificial Neural Networks and applications, Advanced Automatic Control.\n* Also audited some other courses like Thermodynamics, Statistical Thermodynamics, Fluid mechanics, Vibrations, etc.",
+            "skills":{
+                "Engineering Math":90,
+                "Neural Networks":90,
+                "Electrical Circuits":70,
+                "Automatic Control":80,
+                "Fluid Mechanics":60,
+                "Thermodynamics":60,
+                "Statics, Dynamics, Vibrations":70,
+                "Microprocessors":70,
+                "Signals and Systems":70
+            }
+        },
+        {
+            "id":13,
+            "type":"education",
+            "date":["2018-10","2018-12"],
+            "location":"IELTS",
+            "logo":"ielts-logo.png",
+            "bg":"ielts-logo.png",
+            "title":"IELTS (Academic) Certificate",
+            "short_description":"Passed IELTS (Academic) English test with overall bandscore 6.5",
+            "full_description":"* Listening: 7.0\n* Reading: 6.5\n* Writing: 6.0\n* Speaking: 7.0\n* Overall Band Score: 6.5\n* ",
+            "skills":{
+                "Listening":70,
+                "Reading":65,
+                "Writing":60,
+                "Speaking":70
+            }
+        },
+        {
+            "id":12,
+            "type":"startup",
+            "date":["2018-09","2019-09"],
+            "location":"Startup Activities",
+            "logo":"profile-pic.jpg",
+            "bg":"profile-pic.jpg",
+            "title":"Initiator, Mentor",
+            "short_description":"Mentoring and initiating startups:\n* Smart Pacemakers and ECGs (Biomedical Engineering)\n* WebShop Builder (Online Marketing)\n* Local Stellar (Cryptocurrency Platforms)",
+            "full_description":"###Projects:\n* **Smart Pacemakers and ECGs:** Initiatives to implement algorithms for smarter pacemakers and ECGs\n- **Responsibilities:** \n+ Setting up, mentoring and coordinating enthusiast students from different disciplines \n+ Researching and studying current approaches \n - **Tools and References:** Python, Pacemakers made easy, Physionet \n* **WebShop builder:** At this startup we tried to automate the design and implementation of online shops and integrate it with traditional shopping and marketing methods. - **Responsibilities:** \n+ Mentoring and coordinating the team\n+ Educating the team based on cutting-edge web application and data infrastructure solutions\n - **Used:** Full-stack Javascript frameworks including React and Cloud solutions \n* **Local Cryptocurrency Systems:** At this startup we tried to implement an infrastructure for a local cryptocurrency system.\n- **Responsibilities:** \n+ Mentoring and coordinating the team\n+ Implementing an infrastructure based on the Stellar ecosystem\n **Used:** Stellar Cryptocurrency ecosystem and Cloud solutions",
+            "skills":{
+                "Pacemakers":40,
+                "ECGs":40,
+                "Sketch, CSS, HTML":60,
+                "Automatic Control":80,
+                "JavaScript":50,
+                "React.JS, Node.JS":50,
+                "Stock Markets":60,
+                "Cryptocurrency Infra":70,
+                "Business Management":40
+            }
+        },
+        {
+            "id":11,
+            "type":"work",
+            "date":["2015-04","2018-09"],
+            "location":"Sadad Informatics Corp. - Melli Bank Iran",
+            "logo":"sadad-logo.png",
+            "bg":"sadad.jpg",
+            "title":"Data Engineer",
+            "short_description":"* Researching and managing implementation of the best big data and cloud solutions matching data architecture of the organization (**Cutting the costs of data infra by ~5 fold**).\n* Setting up two teams for further works related to data science, big data and cloud infrastructure.\n* Consulting implementaion of a fraud detection system",
+            "full_description":"* Cutting the costs of data infrastructure by ~5 fold through researching and setting up a team for implementing a local cloud infrastructure.\n* Researching and comparing different cutting-edge solutions for big data and cloud architecture.\n* Implementing Apache Hadoop and Spark with IBM Biginsights, Hortonworks, and Openstack on a cluster of computers, trying to integrate it with the current solutions, and studying big data problems (for both data-in-motion and data-at-rest problems, and structured/unstructured data) and data mining capabilities of the infrastructure for the organization.\n* Coordinating the project and setting up two teams for further developments and maintenances.\n* Researching and comparing different capabilities of available fraud detection solutions from both technical and deployment points of view.\n* Consulting and testing implementation of an intelligent secure authentication and device fingerprinting system and implementation of a security SDK for our mobile banking product",
+            "skills":{
+                "Linux (CentOS)":90,
+                "Apache Hadoop":70,
+                "Scrum":70,
+                "Data Warehousing":60,
+                "Hortonworks":60,
+                "Cloud Computing":60,
+                "OpenStack":60,
+                "CI/CD":60,
+                "Spark":50,
+                "Non-relational DBs":50,
+                "IBM Biginsights":50,
+                "Mongo DB":50,
+                "Fraud Detection":70
+            }
+        },
+        {
+            "id":10,
+            "type":"research",
+            "date":["2018-01","2018-02"],
+            "location":"Royal Society",
+            "logo":"logo-rs.png",
+            "bg":"royal-society-event.png",
+            "title":"Invited Speaker",
+            "short_description":"* **Event:** Connectome to behaviour: modelling C. elegans at cellular resolution\n* **Publication:** OpenWorm: overview and recent advances in integrative biological simulation of Caenorhabditis elegans, GP Sarma, CW Lee, T Portegys, V Ghayoomie, T Jacobs, B Alicea, ..., Phil. Trans. R. Soc. B 373 (1758), 20170382, 2018",
+            "full_description":"* Invited speaker at The Royal Society meeting: **[Connectome to behaviour: modelling C. elegans at cellular resolution](https://royalsociety.org/science-events-and-lectures/2018/01/mind-of-a-worm/)** \n* **PUBLICATIONS:**\nOpenWorm: overview and recent advances in integrative biological simulation of Caenorhabditis elegans, GP Sarma, CW Lee, T Portegys, V Ghayoomie, T Jacobs, B Alicea, ..., Phil. Trans. R. Soc. B 373 (1758), 20170382, 2018 \nUnit testing, model validation, and biological simulation, GP Sarma, TW Jacobs, MD Watts, SV Ghayoomie, SD Larson, RC Gerkin, F1000Research 5, 2016",
+            "skills":{
+            }
+        },
+        {
+            "id":9,
+            "type":"research",
+            "date":["2015-02","2018-01"],
+            "location":"OpenWorm",
+            "logo":"openworm-logo.jpeg",
+            "bg":"openworm.jpeg",
+            "title":"Senior Contributor",
+            "short_description":"Project **ChannelWorm**: \n* Exploring ~1000 literatures, gathering gene, protein (amino acid) data, and digitizing patch-clamp data\n* Modeling ion channels\n* Predicting kinetics using machine learning techniques",
+            "full_description":"* Proposing and coordinating development of the ChannelWorm project\n* Integrate and structure data related to ion channels in C. elegans, from genotype to phenotype\n* Digitize and curate electrophysiological data from  publications\n* Develop APIs for accessing data and Keep data up-to-date\n* Build Hodgkin-Huxley models for ion channels based on experimental patch clamp studies\n* Estimate kinetics and build models for ion channels with no patch clamp data available (based on homologous channel types)\n* Create verification & validation tests to prove matching of the models with experimental data\n* Simulate the computational analysis phase of a patch clamp experiment\n* Simulate and run customized versions of ion channel(s) in cell(s)\n* Check if the simulation fits the biological boundaries\n* You can take a look into the works related to the ChannelWorm project which I proposed for collecting data and modeling ion channels in C. elegans: [ChannelWorm Github](https://github.com/openworm/ChannelWorm)",
+            "skills":{
+                "Ion Channel Models":100,
+                "Python":90,
+                "Machine Learning":80,
+                "Scikit-Learn":70,
+                "Keras, TensorFlow":60,
+                "Optimization, fitting":70,
+                "Jupyter Notebooks":90,
+                "Sequence Analysis":80,
+                "Markov Models":70,
+                "Statistical Models":70,
+                "Modeling":70,
+                "NEURON":50,
+                "NeuroML":60,
+                "Django":70,
+                "Multiprocessing":60,
+                "Git/Github":90,
+                "Slack":90,
+                "Amazon AWS":60
+            }
+        },
+        {
+            "id":8,
+            "type":"education",
+            "date":["2015-03","2015-07"],
+            "location":"Coursera",
+            "logo":"coursera.png",
+            "bg":"coursera.png",
+            "title":"Specialized Certificates",
+            "short_description":"",
+            "full_description":"**Coursera**,  Online Courses\n* Front-End Web Development with React, License VDPE79WK8F5B, March 2019\n* Practical Machine Learning, License 2K8YV3FZGD, June 2015\n* The Data Scientist’s Toolbox, License JQ53MARSQY, March 2015\n* Pattern Discovery in Data Mining, License 8SRCQMQKUE, March 2015\n* Text Retrieval and Search Engines, License 2LHWHE9FNC, April 2015\n* Python for Genomic Data Science, License 77STNFG8CY, August 2015\n* Computational Neuroscience, License N8965YKTJ3, June 2015\n\n**Edx**,  Online Courses\n* Blockchain for Business - An Introduction to Hyperledger Technologies\n* LinuxFoundationX -  LFS171x - May 2018\n* Introduction to Cloud Infrastructure Technologies\n* LinuxFoundationX -  LFS151.x - July 2018",
+            "skills":{
+                "Computational Neuroscience":80,
+                "Bioinformatics":90,
+                "Genomic Data Science":90,
+                "Machine Learning":80,
+                "Matlab, R":60,
+                "Data Mining":80,
+                "Text Retrieval":60
+            }
+        },
+        {
+            "id":7,
+            "type":"research",
+            "date":["2014-03","2014-09"],
+            "location":"Laboratory of Systems Biology and Bioinformatics (LBB), University of Tehran",
+            "logo":"lbb-logo.png",
+            "bg":"University_of_Tehran_logo.png",
+            "title":"Researcher",
+            "short_description":"Working on my master’s thesis, \nStudying halmarks of aging",
+            "full_description":"* Computational modeling of ion channels and structure-function relationship analysis -- Using dynamical modeling, Optimization and machine learning algorithms in addition to multiple sequence alignment techniques\n* Developed a method to predict ion channel kinetics from protein sequences\n* Gathered and Digitized a comprehensive dataset containing more than 200 ion channel protein sequences with corresponding electrophysiological data from publications\n* Also researching on Systems Biology of Aging, especially as Neurobiology point of view",
+            "skills":{
+            }
+        },
+        {
+            "id":6,
+            "type":"work",
+            "date":["2012-03","2015-03"],
+            "location":"Saba System Sadra",
+            "logo":"sss-logo.jpg",
+            "bg":"sss.jpg",
+            "title":"System Engineer, Project Manager",
+            "short_description":"Designing and cooperating in development of Azaram WAF (A Linux-based Web Application Firewall)",
+            "full_description":"* Managing the project and coordinating the team\n* Researching and designing the architecture of Azaram WAF\n* Implementing the core OS and main functionalities\n* Implementing HTTPS Offloading, High Availability and Load Balancing functionalities\n* Doing functionality and performance tests on both hardware and software\n* Implementing Monitoring and Self-healing system\n* Implementing the update center for signature and software updates\n* Helping in UI development\n* Also helped with design and implementation of other products in the company such as Mavara SIEM, and Kandoo Honeypot\n* ",
+            "skills":{
+                "Web App Firewalls":80,
+                "Microsoft Project":80,
+                "Apache Modsecurity":80,
+                "Linux (Debian)":70,
+                "C/C++":70,
+                "Shell Scripting":70,
+                "PHP":50,
+                "Perl":40,
+                "SIEM":70,
+                "Honeypot":70,
+                "Network Appliences":60,
+                "Load Balancing & HA":60
+            }
+        },
+        {
+            "id":5,
+            "type":"education",
+            "date":["2011-09","2014-09"],
+            "location":"Payame Noor University of Tehran",
+            "logo":"pnu-logo.png",
+            "bg":"pnu.JPG",
+            "title":"Master’s in Biology, Biochemistry",
+            "short_description":"More than 15 courses in Biology and Biochemistry.\n* Thesis: “Computational modeling of ion channels and structure- function relationship analysis",
+            "full_description":"* More than 15 courses in Biology and Biochemistry, including: Genetics, Introduction to Biochemistry, Cellular and Molecular Biology, Biophysics, Biotechnology, Biochemistry of Membrane, Biochemistry of Hormones, Lipid and Sugar, Metabolism Control, Biochemistry of Proteins and Amino Acids, Enzymology, Advanced Molecular Biology, Biochemistry of Chromatin, Biochemistry and Biophysics Methods, Advanced statics in Biology\n* Due to some limitations I couldn't defend my thesis entitled “Computational modeling of ion channels and structure-function relationship analysis”. However, the problem made me take deeper steps into a reductionist view to biophysical models which was a starting point to further studies.",
+            "skills":{
+                "Biochemistry":70,
+                "Genetics":60,
+                "Cellular Biology":60,
+                "Molecular Biology":60,
+                "Biotechnology":70,
+                "Metabolism":50,
+                "Enzymology":50,
+                "Statics in Biology":80,
+                "Biophysics":70,
+                "Proteins, Amino Acids":70,
+                "Hormones":50
+            }
+        },
+        {
+            "id":4,
+            "type":"research",
+            "date":["2011-03","2011-07"],
+            "location":"Honeynet Project - Iranian Chapter",
+            "logo":"honeynet-logo.png",
+            "bg":"honeynet.png",
+            "title":"Volunteer Researcher",
+            "short_description":"Working on cutting-edge research areas on implementing honeypots, detecting malwares, rootkits, and shell codes.",
+            "full_description":"* As a member of Iranian chapter, we were working on cutting-edge research areas on implementing honeypots, detecting malwares, rootkits, and shell codes.\n* Also an interesting research area that I was more involved in was implementation of Web application firewalls such as Glastopf",
+            "skills":{
+            }
+        },
+        {
+            "id":3,
+            "type":"work",
+            "date":["2010-10","2014-09"],
+            "location":"Different Organizations",
+            "logo":"profile-pic.jpg",
+            "bg":"profile-pic.jpg",
+            "title":"Instructor and Consultor",
+            "short_description":"Application penetration testing, teaching and consulting software security development for different organizations.",
+            "full_description":"* Doing security assessment using both White-box and Black-box techniques, Parsian Internet Bank\n* Doing security assessment using both White-box and Black-box techniques, Isfahan Municipality website\n* CRM and 3MS application penetration testing, Mobin Net Corp.\n* Security assessment using both White-box and Black-box techniques, City Bank Internet Bank\n* Teaching, consulting and implementing an application testing framework, Central Bank of the Islamic Republic of Iran\n* Training software developers and architectures based on OWASP, WASC, and Microsoft SDL guidelines, National Iranian Oil Company \n* Used: Microsoft SDL Toolkit and Guidelines, Visual Studio, Acunetix vulnerability scanner, and many other security assessment tools",
+            "skills":{
+            }
+        },
+        {
+            "id":2,
+            "type":"work",
+            "date":["2008-07","2012-03"],
+            "location":"Pars Processing Pioneer - Tosan Banking Solutions",
+            "logo":"tosan_logo.png",
+            "bg":"tosan_logo.png",
+            "title":"Software Security Engineer",
+            "short_description":"Security assessment and secure implementation consultant of applications and services",
+            "full_description":"**Projects:** \n* Security assessment of TOSAN banking products (Jul 2011 - Mar 2012)\n* Security assessment of Social Security Organization of Iran (Oct 2010 - Jun 2011)\n* Security assessment of Saman Bank products and services (Jan 2010 - Sep 2010)\n* Security assessment of Sapco organizational applications (Sep 2009 - May 2010)\n* Security assessment of Meysam Software - Registry Organization of Documents and Landed Estate of Iran (Jul 2009 - Nov 2009) \n\n **Responsibilities:** \n* Doing security assessment using both White-box and Black-box techniques\n* Doing fuzzing tests and reverse engineering on desktop applications\n* Consulting developing security patches and secure code development\n* Consulting developing security policies for software developers\n* Training software developers and architectures based on OWASP, WASC, and Microsoft SDL guidelines",
+            "skills":{
+                "Microsoft SDL":80,
+                "Web App Security":80,
+                "Web Services":80,
+                "Accunetix":70,
+                "Reverse Engineering":70,
+                "Cryptography":60,
+                "Java":50,
+                "IDEA Pro":40,
+                "Visual Studio":70,
+                "Code Review":70,
+                "Secure Programming":60,
+                "Assembly":60
+            }
+        },
+        {
+            "id":1,
+            "type":"education",
+            "date":["2005-09","2010-01"],
+            "location":"Islamic Azad University South Tehran",
+            "logo":"azad-uni.png",
+            "bg":"azad-uni.JPG",
+            "title":"B.Sc. in Information Technology",
+            "short_description":"Among top graduated students, GPA: 17.43/20",
+            "full_description":"Among top graduated students, GPA: 17.43/20",
+            "skills":{
+                "IT Engineering":70,
+                "Project Management":70,
+                "Computer Networks":60,
+                "Artificial Intelligence":80,
+                "Operating Systems":80,
+                "Computer Architect":70,
+                "Relational Databases":80,
+                "Software Engineering":80,
+                "Data Structures":80,
+                "Algorithms":70,
+                "C/ C++ /C# / ASP.NET":70,
+                "Mathematics":70
+            }
+        },
+        {
+            "id":0,
+            "type":"education",
+            "date":["2002-09","2005-06"],
+            "location":"Shariati High School - Tehran",
+            "logo":"shariati.jpg",
+            "bg":"shariati.jpg",
+            "title":"Diploma in Mathematics and Physics",
+            "short_description":"* Preuniversity GPA: 18.90/20\n* Diploma GPA: 18.60/20",
+            "full_description":"* Preuniversity GPA: 18.90/20\n* Diploma GPA: 18.60/20",
+            "skills":{
+            }
         }
-    },
-    "1":{
-        "type":"education",
-        "date":["2019-09","2021-02"],
-        "location":"Sharif University of Technology - International Campus",
-        "logo":"sharif-logo.jpeg",
-        "bg":"sharif.jpg",
-        "title":"Master’s in Mechatronics",
-        "short_description":"Took more than 10 courses in Mechatronics including fundamental under-graduate courses in Mechanical and Electrical engineering.",
-        "full_description":"-Main courses taken: Advanced Mathematical Engineering, Statics, Dynamics, Electrical Engineering, Signals and Systems, Artificial Neural Networks and applications, Advanced Automatic Control.\n-Also audited some other courses like Thermodynamics, Statistical Thermodynamics, Fluid mechanics, Microprocessors, Vibrations, etc.",
-        "skills":{
-            "Engineering Math":90,
-            "Neural Networks":90,
-            "Electrical Circuits":70,
-            "Automatic Control":80,
-            "Fluid Mechanics":60,
-            "Thermodynamics":60,
-            "Statics, Dynamics, Vibrations":70,
-            "Microprocessors":70,
-            "Signals and Systems":70
-        }
-
-    }
+    ]
 }
 
 
